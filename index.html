@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Inovações: Encontre o Futuro</title>
+</head>
+<body>
+    <header>
+        <h1>Portfólio de Inovações: Encontre o Futuro</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" id="campo-pesquisa" placeholder="Digite um termo para pesquisar...">
+            <select id="filtro-categoria">
+                <option value="Todos">Todos</option>
+                <option value="ia">IA</option>
+                <option value="ar">AR</option>
+                <option value="ev">EV</option>
+                <option value="quantum">Quantum</option>
+                <option value="drone">Drone</option>
+                <option value="blockchain">Blockchain</option>
+                <option value="robotics">Robótica</option>
+                <option value="telecom">Telecom</option>
+                <option value="vr">VR</option>
+            </select>
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section id="resultados-pesquisa" class="resultados-pesquisa"></section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Portfólio de Inovações. Alessandro Souza Silva.</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
